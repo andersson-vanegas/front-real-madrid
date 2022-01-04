@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+    
+.realmadrid{
+    margin-left: 40px;
+    margin-top:10px; 
+    display:inline-block;
+    height: 100px; 
+}
+.logo{
+    height: 60px; 
+    margin-left:160px;
+}
+.titulo{
+    display: inline-block;
+    margin-left: 10px;
+    background-color:white; 
+    font-size: 40px;
+    font-weight: bold;
+}
+header{
+    background-color:white;
+    height: 130px;   
+}
+.seccion{
+    background-color: white;    
+}
+
+body {
+    background-color: blue;
+  }
+
+  /* Movil*/
+@media (min-width: 640px) {
+    body {
+      background-color: red;
+    }
+  }
+/* Tablets */
+  @media (min-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+  }
+
+/* formulario */
+.subtitulo{
+    font-size: 30px;
+    margin-left: 40px;
+    display: inline-block;
+}
+span.subtitulo{
+    color: black;
+    font-weight: bolder;
+}
+a i{
+    color: #428bC4;
+    
+}
+.topbar{
+    color: #428bC4;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px;
+}
+.topbar a{
+    padding-left: 10px;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+.topbar i{
+    padding-left: 10px;
+    color: cornflowerblue;
+}
+.redes{
+  display: inline-block;
+  padding-left: 40px;
+  font-size: 20px;
+  color: royalblue;
+}
+.redes span {
+    padding-right: 20px;
+    display: inline-block;
+}
+.redes a{
+    padding-left: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+.barratop img{
+    width: 50px;
+    height: 50px;
+    text-align:left;
+    
+}
+.box{
+    position: absolute;
+    display: inline-block;
+    padding-left: 100px;
+    transform:translate(-20%, -20%)
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #428bC4;
+    border: 3px solid #428bC4;
+    background: #fff url("search-icon.png") no-repeat 9px left;
+    width: 120px;
+    transition: all .5s;
+}
+input.src:hover{
+     width: 300px;
+     background-color: #fff;
+     border-color:#428bC4;
+     box-shadow: 0 0 8px purple;
+}
+.menuH{
+    overflow: hidden;
+    box-shadow: 0px 14px 37px -8px rgba(17, 218, 218, 0.89);
+-webkit-box-shadow: 0px 14px 37px -8px rgba(96, 137, 226, 0.89);
+-moz-box-shadow: 0px 14px 37px -8px rgba(30, 111, 233, 0.89);
+}
+.menuH a{
+    background-color:lightblue;
+    color: black;
+    text-decoration: none;
+    float: left;
+    width: 16.6%;
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+.menuH a:hover{
+     background-color: cornflowerblue;
+     color: white;
+}
+
+nav a.pagina4{
+    background-color: cornflowerblue;
+     color: white;
+}
+p{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+img{
+   margin-top: 30px;
+   margin-left: 100px;
+  
+}
